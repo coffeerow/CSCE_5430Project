@@ -1,0 +1,39 @@
+<htmlf file> 
+
+<body>
+    <br>
+    <h1>Wonder World Explorer</h1> <br>
+
+        <h3>Enter your name:</h3>
+        <input id=name name="name" type="text" size="30"> <br><br>
+
+    <h3>Please select the country below:</h3>
+        <button id="Mexico"   class="level"  value="Mexico"   onclick="StartGame('Mexico ')"> Mexico </button><br>
+        <button id="Japan" class="level"  value="Japan" onclick="StartGame('Japan')"> Japan</button><br>
+        <button id="India"   class="level"  value="India"   onclick="StartGame('India')"> India</button><br><br>
+
+        <p style="font-size:30px; display:inline-block"> Current Color: </p>
+        <p id="demo1"> </p> <br>
+
+        <p style="font-size:30px;display:inline-block" id="scoretext"> Your Score: </p>
+        <input  id="demo2"  name="score " type=" number"  > score </input>  <br> <br>
+
+        <button class="blackbtn" onclick="game('Mexico')" > White </button>
+        <button class="goldbtn" onclick="game('Japan')" > WHite</button>
+        <button class="whitebtn" onclick="game('India')" > WHITE </button> <br> <br>
+
+        <button  id="submit_btn" onclick="display()">Check your score on the leaderboard.</button> <br> <br>
+
+        <div id="results">
+            <table id="table">
+                <th>Travelers' LeaderBoard</th>
+                <tr>
+                    <td id="Travelers' leaderBoard"></td>
+                </tr>
+            </table>
+        </div>
+
+    <script src="csstesting.css"></script>
+    </body>
+
+</html>
